@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form</title>
+</head>
+<body>
+  <div>NAME:<input type="text" name="" id=""></div>
+  <br>
+  <div>SURNAME: <input type="text" name="" id=""></div>
+  <br>
+  <div>EMAIL:<input type="email" name="" id=""></div>
+  <br>
+  <div> DOB: <input type="date" name="" id=""></div>
+  <br>
+
+ <div>Details: <input type="text" name="" id=""></div> 
+  <br>
+ <div>Work Experience: <input type="number" name="" id=""></div> 
+  <br>
+  <div>Gender: Male<input type="radio" name="My Gender" id=""> Female<input type="radio" name="My Gender" id=""> Other<input type="radio" name="My Gender" id=""> </div>
+  <br>
+  <div><input type="submit" value="Submit"></div>
+ 
+  <br>
+</body>
+</html>
