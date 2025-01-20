@@ -55,14 +55,93 @@
 # print(temp.convert(b))
 # print(temp.statement())
 
-class animal():
-    def sound(self):
-        print("animal sound")
-class dog(animal):
-    def sound(Self):
-        print("bark")
-Animal = animal()
-Animal.sound() 
+# class animal():
+#     def sound(self):
+#         print("animal sound")
+# class dog(animal):
+#     def sound(Self):
+#         print("bark")
+# Animal = animal()
+# Animal.sound() 
 
-Dog = dog()
-Dog.sound()
+# Dog = dog()
+# Dog.sound()
+# Assignment 5: Multiple Inheritance
+# class Bird:
+#     def fly(self):
+#         print("Flying")
+
+
+# class Fish:
+#     def swim(self):
+#         print("Swimming")
+
+# class Duck(Bird, Fish):
+#     pass
+
+
+# duck = Duck()
+
+
+# duck.fly()  
+# duck.swim()  
+
+# Assignment 7: Encapsulation
+# class BankAccount:
+#     def __init__(self, initial_balance=0):
+#         self._balance = initial_balance
+
+#     def deposit(self, amount):
+#         if amount > 0:
+#             self._balance += amount
+#             print(f"Deposited ${amount}. Current balance: ${self._balance}")
+#         else:
+#             print("Deposit amount must be positive.")
+
+#     def withdraw(self, amount):
+#         if amount > 0:
+#             if amount <= self._balance:
+#                 self._balance -= amount
+#                 print(f"Withdrew ${amount}. Current balance: ${self._balance}")
+#             else:
+#                 print("Insufficient balance.")
+#         else:
+#             print("Withdrawal amount must be positive.")
+
+#     def get_balance(self):
+#         return self._balance
+
+
+# account = BankAccount(100)
+# account.deposit(50)
+# account.withdraw(30)
+# print("Final balance:", account.get_balance())
+
+# Assignmemnt 8 :
+# class Dog:
+#     def speak(self):
+#         print("Woof")
+
+# class Cat:
+#     def speak(self):
+#         print("Meow")
+
+# dog = Dog()
+# cat = Cat()
+
+# dog.speak()
+# cat.speak()
+
+
+# Assignment 9
+# class Calculator:
+#     def add(self, num1, num2, num3=0):
+#         return num1 + num2 + num3
+
+# calc = Calculator()
+
+# result1 = calc.add(5, 10)
+# print("Sum of two numbers:", result1)
+
+# result2 = calc.add(5, 10, 15)
+# print("Sum of three numbers:", result2)
